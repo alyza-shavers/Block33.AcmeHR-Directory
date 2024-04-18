@@ -1,0 +1,16 @@
+{
+    "name": "acme_hr_directory",
+    "version": "1.0.0",
+    "description": "API for managing employees and departments for Acme Human Resource Department",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "knex": "^0.95.6",
+      "pg": "^8.7.1",
+      "objection": "^3.0.1"
+    }
+  }
+  
